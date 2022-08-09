@@ -1,14 +1,20 @@
-﻿int Max(int arg1, int arg2, int arg3)
-{
-    int result = arg1;
-    if (arg2 > result) result = arg2;
-    if (arg3 > result) result = arg3;
-    return result;
+﻿int[] massive = {11,21,34,5,64,34,56,67,33,23};
+
+
+void max(int[] array) {
+
+int length = array.Length;
+int index = 0;
+int maximum = array[index];
+
+while (index < length) {
+    if (array[index]>maximum) {
+        maximum = array[index];
+    }
+    index++;
+}
+Console.WriteLine(maximum);
+
 }
 
-int[] array = {4,6,7,8,5,3,2,6,8,16};
-
-//int result = Max(
-    
-
-Console.WriteLine(result);
+max(massive);
