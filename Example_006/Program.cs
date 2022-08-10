@@ -16,8 +16,8 @@ void PrintArray(int[] Col) {
     }
 }
 
-int[] array1 = new int[30];
-int[] array2 = new int[30];
+int[] array1 = new int[20];
+int[] array2 = new int[20];
 
 CreateArray(array1);
 CreateArray(array2);
